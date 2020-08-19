@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AuthServer.Common" Version="0.0.3" />
+    <PackageReference Include="MassTransit" Version="6.2.1" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="6.2.1" />
+    <PackageReference Include="TacitusLogger" Version="0.4.4" />  
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AuthServer.UserSystem.Models\AuthServer.UserSystem.Models.csproj" />
+  </ItemGroup>
+
+</Project>

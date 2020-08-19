@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AuthServer.Infrastructure.RabbitMq" Version="0.0.8" />
+    <PackageReference Include="TacitusLogger" Version="0.4.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AuthServer.Mailing.Sender\AuthServer.Mailing.Sender.csproj" />
+  </ItemGroup>
+
+</Project>

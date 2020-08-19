@@ -1,0 +1,3 @@
+﻿{
+  "emailConfirmUrlBase": "https://localhost:44341/api/v1/account/confirmEmail/{0}"
+}

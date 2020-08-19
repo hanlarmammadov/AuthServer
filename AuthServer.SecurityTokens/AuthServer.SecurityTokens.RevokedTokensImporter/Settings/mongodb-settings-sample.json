@@ -1,0 +1,13 @@
+{
+  "mongodb": {
+    "connectionString": "",
+    "database": "",
+
+    "infoLogCollection": {
+      "name": ""
+    },
+    "errorLogCollection": {
+      "name": ""
+    }
+  }
+}

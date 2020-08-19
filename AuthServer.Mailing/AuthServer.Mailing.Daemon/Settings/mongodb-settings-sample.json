@@ -1,0 +1,10 @@
+{
+  "mongodb": {
+    "connString": "",
+    "database": "",
+
+    "logsCollection": {
+      "name": ""
+    }
+  }
+}

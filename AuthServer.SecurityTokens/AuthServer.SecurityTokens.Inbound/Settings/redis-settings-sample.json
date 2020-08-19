@@ -1,0 +1,11 @@
+﻿{
+  "redis": {
+    "configurationOptions": "",
+    "revokedTokensCollection": {
+      "name": "prod:rtokens:revoked"
+    },
+    "invalidatedTokensCollection": {
+      "name": "prod:rtokens:invalidated"
+    }
+  }
+}

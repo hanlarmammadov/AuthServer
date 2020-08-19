@@ -1,0 +1,32 @@
+{
+  "mongodb_logs_config": {
+    "connectionString": "",
+    "database": "",
+
+    "infoLogCollection": {
+      "name": ""
+    },
+    "errorLogCollection": {
+      "name": ""
+    }
+  },
+
+  "mongodb_user_sys_db_config": {
+    "connectionString": "",
+    "database": "",
+
+    "accountsCollection": {
+      "name": ""
+    },
+    "emailConfirmRequestsCollection": {
+      "name": ""
+    },
+    "usersCollection": {
+      "name": ""
+    },
+    "rolesCollection": {
+      "name": ""
+    }
+
+  }
+}

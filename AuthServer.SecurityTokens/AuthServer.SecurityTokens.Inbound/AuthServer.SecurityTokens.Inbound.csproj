@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AuthServer.Common" Version="0.0.4" />
+    <PackageReference Include="AuthServer.Infrastructure" Version="0.0.10" />
+    <PackageReference Include="AuthServer.Infrastructure.MongoDb" Version="0.0.10" />
+    <PackageReference Include="AuthServer.Infrastructure.RabbitMq" Version="0.0.13" />
+    <PackageReference Include="AuthServer.Infrastructure.Redis" Version="0.0.10" />
+    <PackageReference Include="AuthServer.UserSystem.Models" Version="0.0.9" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.2" />
+    <PackageReference Include="MongoDB.Driver" Version="2.10.2" />
+    <PackageReference Include="StackExchange.Redis.StrongName" Version="1.2.6" />
+    <PackageReference Include="TacitusLogger" Version="0.4.4" />
+    <PackageReference Include="TacitusLogger.Destinations.MongoDb" Version="0.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AuthServer.SecurityTokens.Data\AuthServer.SecurityTokens.Data.csproj" />
+    <ProjectReference Include="..\AuthServer.SecurityTokens.Entities\AuthServer.SecurityTokens.Entities.csproj" />
+    <ProjectReference Include="..\AuthServer.SecurityTokens.Models\AuthServer.SecurityTokens.Models.csproj" />
+    <ProjectReference Include="..\AuthServer.SecurityTokens.Services\AuthServer.SecurityTokens.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Settings\app-settings-sample.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Settings\app-settings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Settings\mongodb-settings-sample.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Settings\mongodb-settings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Settings\rabbitmq-settings-sample.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Settings\rabbitmq-settings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Settings\redis-settings-sample.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Settings\redis-settings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

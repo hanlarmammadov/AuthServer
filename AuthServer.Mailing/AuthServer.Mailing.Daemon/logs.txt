@@ -1,0 +1,10 @@
+Log Id:        c6d6aff00d2640a0a813858b3d9839ba
+Log type:      Info
+Description:   Daemon configured
+Source:        Mailing daemon
+Context:       
+Tags:          
+Log date:      09-Mar-20 18:50:01
+
+-------------------------------------
+

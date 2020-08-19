@@ -1,0 +1,21 @@
+{
+  "mongodb_log_sys": {
+    "connectionString": "",
+    "database": "",
+
+    "infoLogCollection": {
+      "name": ""
+    },
+    "errorLogCollection": {
+      "name": ""
+    }
+  },
+  "mongodb_token_sys": {
+    "connectionString": "",
+    "database": "",
+
+    "accountRTokenCollection": {
+      "name": ""
+    }
+  }
+}

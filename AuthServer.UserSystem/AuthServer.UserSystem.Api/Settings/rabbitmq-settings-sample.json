@@ -1,0 +1,68 @@
+﻿{
+  "rabbitMq": {
+    "host": "",
+    "port": 5672,
+    "username": "",
+    "password": "",
+    "userDataChangedEventExchange": {
+      "name": "auth-server.user-system.api.1.user-data-changed-event",
+      "isDurable": true,
+      "type": "fanout",
+      "description": "This exchange is used to publish the following event: UserDataChangedEvent"
+    },
+    "userRolesChangedEventExchange": {
+      "name": "auth-server.user-system.api.1.user-roles-changed-event",
+      "isDurable": true,
+      "type": "fanout",
+      "description": "This exchange is used to publish the following event: UserRolesChangedEvent"
+    },
+    "passwordChangedEventExchange": {
+      "name": "auth-server.user-system.api.1.password-changed-event",
+      "isDurable": true,
+      "type": "fanout",
+      "description": "This exchange is used to publish the following event: PasswordChangedEvent"
+    },
+    "emailConfirmationByLinkRequestEventExchange": {
+      "name": "auth-server.user-system.api.1.email-confirmation-by-link-request-event",
+      "isDurable": true,
+      "type": "fanout",
+      "description": "This exchange is used to publish the following event: EmailConfirmationByLinkRequestEvent"
+    },
+    "accountEmailChangedEventExchange": {
+      "name": "auth-server.user-system.api.1.account-email-changed-event",
+      "isDurable": true,
+      "type": "fanout",
+      "description": "This exchange is used to publish the following event: AccountEmailChangedEvent"
+    },
+    "accountEmailChangeUndoEventExchange": {
+      "name": "auth-server.user-system.api.1.account-email-change-undo-event",
+      "isDurable": true,
+      "type": "fanout",
+      "description": "This exchange is used to publish the following event: AccountEmailChangeUndoEvent"
+    },
+    "accountCreatedEventExchange": {
+      "name": "auth-server.user-system.api.1.account-created-event",
+      "isDurable": true,
+      "type": "fanout",
+      "description": "This exchange is used to publish the following event: NewAccountCreatedEvent"
+    },
+    "roleCreatedEventExchange": {
+      "name": "auth-server.user-system.api.1.role-created-event",
+      "isDurable": true,
+      "type": "fanout",
+      "description": "This exchange is used to publish the following event: RoleCreatedOrEditedEvent"
+    },
+    "roleEditedEventExchange": {
+      "name": "auth-server.user-system.api.1.role-edited-event",
+      "isDurable": true,
+      "type": "fanout",
+      "description": "This exchange is used to publish the following event: RoleCreatedOrEditedEvent"
+    },
+    "userCreatedEventExchange": {
+      "name": "auth-server.user-system.api.1.user-created-event",
+      "isDurable": true,
+      "type": "fanout",
+      "description": "This exchange is used to publish the following event: UserCreatedEvent"
+    }
+  }
+}

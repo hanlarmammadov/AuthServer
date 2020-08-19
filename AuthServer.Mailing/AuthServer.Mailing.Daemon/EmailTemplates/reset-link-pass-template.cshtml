@@ -1,0 +1,4 @@
+﻿ @model AuthServer.MailingSystem.Sender.Models.ViewModel
+<h4>Dear @Model.Get("Username"),</h4>
+<p>to reset your password use the following link:</p>
+<a href="@Model.Get("Url")" target="_blank">@Model.Get("Url")</a>

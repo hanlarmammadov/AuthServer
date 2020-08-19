@@ -1,0 +1,18 @@
+{
+  "rabbitMq": {
+    "host": "",
+    "port": 5672,
+    "username": "",
+    "password": "",
+    "refreshTokenRevokedEventQueue": {
+      "name": "auth-server.revoked-tokens-importer.1.refresh-token-revoked-event-queue",
+      "autoAck": false,
+      "description": "This queue is used to receive refresh token revoked event messages for revoken tokens importer."
+    },
+    "refreshTokenInvalidatedEventQueue": {
+      "name": "auth-server.revoked-tokens-importer.1.refresh-token-invalidated-event-queue",
+      "autoAck": false,
+      "description": "This queue is used to receive refresh token invalidated event messages for revoken tokens importer."
+    }
+  }
+}

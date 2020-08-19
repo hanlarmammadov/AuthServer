@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthServer.Mailing.Daemon", "AuthServer.Mailing.Daemon\AuthServer.Mailing.Daemon.csproj", "{2DF2C297-0134-45A5-ADC9-A4B97476BE22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthServer.Mailing.Infrastructure", "AuthServer.Mailing.Infrastructure\AuthServer.Mailing.Infrastructure.csproj", "{A35DEECA-6BA8-48AD-8569-4259F590B0FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthServer.Mailing.Sender", "AuthServer.Mailing.Sender\AuthServer.Mailing.Sender.csproj", "{37F320A2-0BA4-4C33-8B51-31748D3B5AC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DF2C297-0134-45A5-ADC9-A4B97476BE22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DF2C297-0134-45A5-ADC9-A4B97476BE22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DF2C297-0134-45A5-ADC9-A4B97476BE22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DF2C297-0134-45A5-ADC9-A4B97476BE22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A35DEECA-6BA8-48AD-8569-4259F590B0FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A35DEECA-6BA8-48AD-8569-4259F590B0FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A35DEECA-6BA8-48AD-8569-4259F590B0FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A35DEECA-6BA8-48AD-8569-4259F590B0FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37F320A2-0BA4-4C33-8B51-31748D3B5AC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37F320A2-0BA4-4C33-8B51-31748D3B5AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37F320A2-0BA4-4C33-8B51-31748D3B5AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37F320A2-0BA4-4C33-8B51-31748D3B5AC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A887F072-83DC-4C8D-8436-DE82E0B35511}
+	EndGlobalSection
+EndGlobal

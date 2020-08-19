@@ -1,0 +1,75 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>bin\netcoreapp2.0\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Settings\jwt-settings-sample.json" />
+    <Content Remove="Settings\mongodb-settings-sample.json" />
+    <Content Remove="Settings\rabbitmq-settings-sample.json" />
+    <Content Remove="Settings\redis-settings-sample.json" />
+  </ItemGroup>
+ 
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+ 
+  <ItemGroup>
+    <None Include="Settings\jwt-settings-sample.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Include="Settings\mongodb-settings-sample.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Include="Settings\rabbitmq-settings-sample.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Include="Settings\redis-settings-sample.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AuthServer.Infrastructure" Version="0.0.10" />
+    <PackageReference Include="AuthServer.Infrastructure.MassTransit" Version="0.0.10" />
+    <PackageReference Include="AuthServer.Infrastructure.MongoDb" Version="0.0.10" />
+    <PackageReference Include="AuthServer.Infrastructure.RabbitMq" Version="0.0.13" />
+    <PackageReference Include="AuthServer.Infrastructure.Redis" Version="0.0.10" />
+    <PackageReference Include="AuthServer.UserSystem.Models" Version="0.0.9" />
+    <PackageReference Include="MassTransit" Version="6.2.1" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="6.2.1" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
+    <PackageReference Include="RabbitMQ.Client" Version="5.1.2" />
+    <PackageReference Include="StackExchange.Redis.StrongName" Version="1.2.6" />
+    <PackageReference Include="TacitusLogger" Version="0.4.4" />
+    <PackageReference Include="TacitusLogger.Destinations.MongoDb" Version="0.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AuthServer.SecurityTokens.Data\AuthServer.SecurityTokens.Data.csproj" />
+    <ProjectReference Include="..\AuthServer.SecurityTokens.Entities\AuthServer.SecurityTokens.Entities.csproj" />
+    <ProjectReference Include="..\AuthServer.SecurityTokens.Models\AuthServer.SecurityTokens.Models.csproj" />
+    <ProjectReference Include="..\AuthServer.SecurityTokens.Services\AuthServer.SecurityTokens.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Settings\jwt-settings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Settings\mongodb-settings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Settings\rabbitmq-settings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Settings\redis-settings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,21 @@
+{
+  "mongoLogDb": {
+    "connectionString": "",
+    "database": "",
+
+    "infoLogCollection": {
+      "name": ""
+    },
+    "errorLogCollection": {
+      "name": ""
+    }
+  },
+  "mongoDb": {
+    "connectionString": "",
+    "database": "",
+
+    "accountRTokenCollection": {
+      "name": ""
+    }
+  }
+}

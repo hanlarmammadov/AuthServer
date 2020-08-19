@@ -1,0 +1,4 @@
+{
+  "appName": "App1",
+  "mutexName": "Global\\App1RevokedTokensImporter"
+}

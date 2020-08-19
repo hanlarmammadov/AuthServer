@@ -1,0 +1,24 @@
+﻿{
+  "jwtRefreshToken": {
+    "validateAudience": "true",
+    "validateIssuer": "true",
+    "validateLifetime": "true",
+    "issuer": "example.com",
+    "audience": "self",
+    "expiresInMin": 43200
+  },
+  "jwtShortToken": {
+    "validateAudience": "true",
+    "validateIssuer": "true",
+    "validateLifetime": "true",
+    "issuer": "example.com",
+    "audience": "allApi",
+    "expiresInMin": 15
+  },
+  "jwtRefreshTokenSigningKey": {
+    "keyValue": "refresh token signing key"
+  },
+  "jwtShortTokenSigningKey": {
+    "keyValue": "short token signing key"
+  }
+}

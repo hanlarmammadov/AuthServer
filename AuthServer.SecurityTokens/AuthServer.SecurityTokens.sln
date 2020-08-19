@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthServer.SecurityTokens.Entities", "AuthServer.SecurityTokens.Entities\AuthServer.SecurityTokens.Entities.csproj", "{99F05A03-BA71-4180-9026-132D4727F18E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthServer.SecurityTokens.Models", "AuthServer.SecurityTokens.Models\AuthServer.SecurityTokens.Models.csproj", "{24743F85-9E7C-4A60-9CFF-48B37EF3430C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthServer.SecurityTokens.Data", "AuthServer.SecurityTokens.Data\AuthServer.SecurityTokens.Data.csproj", "{D1AA2EA1-A2E1-43D3-BF0B-1D1475F30FBB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthServer.SecurityTokens.Services", "AuthServer.SecurityTokens.Services\AuthServer.SecurityTokens.Services.csproj", "{E5811659-48B3-40B2-9F42-6DB0D37ABCAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthServer.SecurityTokens.Api", "AuthServer.SecurityTokens.Api\AuthServer.SecurityTokens.Api.csproj", "{A638F96D-5498-461B-B941-5B47AD91E0F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthServer.SecurityTokens.RevokedTokensImporter", "AuthServer.SecurityTokens.RevokedTokensImporter\AuthServer.SecurityTokens.RevokedTokensImporter.csproj", "{75B97D4C-507D-4F0A-A84F-466618BD872E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthServer.SecurityTokens.Inbound", "AuthServer.SecurityTokens.Inbound\AuthServer.SecurityTokens.Inbound.csproj", "{BCF2DE95-2BEF-4199-966F-F423792CD3CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{0C9E9559-8698-4F20-B222-4EA8CC13B5DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9EB69D88-B5A9-40FF-AADB-73B07D52F3A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthServer.SecurityTokens.Api.UnitTests", "AuthServer.SecurityTokens.Api.UnitTests\AuthServer.SecurityTokens.Api.UnitTests.csproj", "{E623FF00-DE99-4D0F-9A21-7F92B190082B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99F05A03-BA71-4180-9026-132D4727F18E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99F05A03-BA71-4180-9026-132D4727F18E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99F05A03-BA71-4180-9026-132D4727F18E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99F05A03-BA71-4180-9026-132D4727F18E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24743F85-9E7C-4A60-9CFF-48B37EF3430C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24743F85-9E7C-4A60-9CFF-48B37EF3430C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24743F85-9E7C-4A60-9CFF-48B37EF3430C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24743F85-9E7C-4A60-9CFF-48B37EF3430C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1AA2EA1-A2E1-43D3-BF0B-1D1475F30FBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1AA2EA1-A2E1-43D3-BF0B-1D1475F30FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1AA2EA1-A2E1-43D3-BF0B-1D1475F30FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1AA2EA1-A2E1-43D3-BF0B-1D1475F30FBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5811659-48B3-40B2-9F42-6DB0D37ABCAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5811659-48B3-40B2-9F42-6DB0D37ABCAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5811659-48B3-40B2-9F42-6DB0D37ABCAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5811659-48B3-40B2-9F42-6DB0D37ABCAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A638F96D-5498-461B-B941-5B47AD91E0F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A638F96D-5498-461B-B941-5B47AD91E0F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A638F96D-5498-461B-B941-5B47AD91E0F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A638F96D-5498-461B-B941-5B47AD91E0F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75B97D4C-507D-4F0A-A84F-466618BD872E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75B97D4C-507D-4F0A-A84F-466618BD872E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75B97D4C-507D-4F0A-A84F-466618BD872E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75B97D4C-507D-4F0A-A84F-466618BD872E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCF2DE95-2BEF-4199-966F-F423792CD3CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF2DE95-2BEF-4199-966F-F423792CD3CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF2DE95-2BEF-4199-966F-F423792CD3CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF2DE95-2BEF-4199-966F-F423792CD3CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E623FF00-DE99-4D0F-9A21-7F92B190082B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E623FF00-DE99-4D0F-9A21-7F92B190082B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E623FF00-DE99-4D0F-9A21-7F92B190082B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E623FF00-DE99-4D0F-9A21-7F92B190082B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A638F96D-5498-461B-B941-5B47AD91E0F3} = {0C9E9559-8698-4F20-B222-4EA8CC13B5DC}
+		{75B97D4C-507D-4F0A-A84F-466618BD872E} = {0C9E9559-8698-4F20-B222-4EA8CC13B5DC}
+		{BCF2DE95-2BEF-4199-966F-F423792CD3CB} = {0C9E9559-8698-4F20-B222-4EA8CC13B5DC}
+		{E623FF00-DE99-4D0F-9A21-7F92B190082B} = {9EB69D88-B5A9-40FF-AADB-73B07D52F3A7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF2C795C-ECF5-45B8-A9EB-7D37E9A0DD2F}
+	EndGlobalSection
+EndGlobal

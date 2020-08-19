@@ -1,0 +1,11 @@
+﻿{
+  "templateFileForConfirmMail": "./EmailTemplates/confirm-email-template.cshtml",
+  "templateFileForDirectPassRecovery": "./EmailTemplates/direct-pass-template.cshtml",
+  "templateFileForResetLinkPassRecovery": "./EmailTemplates/reset-link-pass-template.cshtml",
+  "templateFileForUserClaimsChangedEvent": "./EmailTemplates/user-claims-changed-event-template.cshtml",
+  "templateFileForPasswordChangedEvent": "./EmailTemplates/password-changed-event-template.cshtml",
+  "templateFileForAccountEmailChangedEvent": "./EmailTemplates/account-email-changed-template.cshtml",
+  "templateFileForAccountEmailChangeUndoEvent": "./EmailTemplates/account-email-change-undo-template.cshtml",
+
+  "mutexName": "Global\\your-mutex-name"
+}

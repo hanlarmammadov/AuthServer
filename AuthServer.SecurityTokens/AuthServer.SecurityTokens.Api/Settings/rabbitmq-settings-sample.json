@@ -1,0 +1,22 @@
+﻿{
+  "rabbitMq": {
+    "host": "",
+    "port": 5672,
+    "username": "",
+    "password": "",
+    "validateCredentialsMassTransitChannel": {
+      "name": "auth-server.security-tokens-inbound.1.to.user-system.1.request-response.validate-credentials",
+      "description": ""
+    },
+    "getUserClaimsMassTransitChannel": {
+      "name": "auth-server.security-tokens-api.1.to.user-system.inbound.1.request-response.get-user-claims",
+      "description": ""
+    },
+    "refreshTokenRevokedEventExchange": {
+      "name": "auth-server.security-tokens.api.1.refresh-token-revoked-event-event",
+      "isDurable": true,
+      "type": "fanout",
+      "description": "This exchange is used to publish the following event: RefreshTokenRevokedEvent"
+    }
+  }
+}

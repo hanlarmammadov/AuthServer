@@ -1,0 +1,16 @@
+﻿{
+  "rabbitMq": {
+    "host": "",
+    "port": 5672,
+    "username": "",
+    "password": "",
+    "validateCredentialsMassTransitChannel": {
+      "name": "auth-server.security-tokens-inbound.1.to.user-system.1.request-response.validate-credentials",
+      "description": ""
+    },
+    "getUserClaimsMassTransitChannel": {
+      "name": "auth-server.security-tokens-api.1.to.user-system.inbound1.request-response.get-user-claims",
+      "description": ""
+    }
+  }
+}

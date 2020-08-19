@@ -1,0 +1,30 @@
+﻿{
+  "rabbitMq": {
+    "host": "",
+    "port": 5672,
+    "username": "",
+    "password": "",
+    "refreshTokenRevokedEventExchange": {
+      "name": "auth-server.security-tokens.api.1.refresh-token-revoked-event",
+      "isDurable": true,
+      "type": "fanout",
+      "description": "This exchange is used to publish the following event: RefreshTokenRevokedEvent"
+    },
+    "refreshTokenInvalidatedEventExchange": {
+      "name": "auth-server.security-tokens.api.1.refresh-token-invalidated-event",
+      "isDurable": true,
+      "type": "fanout",
+      "description": "This exchange is used to publish the following event: RefreshTokenInvalidatedEvent"
+    },
+    "userRolesChangedEventQueue": {
+      "name": "auth-server.security-tokens.inbound.1.user-roles-changed-event-queue",
+      "autoAck": false,
+      "description": "This queue is used to receive user roles changed event messages for invalidating their tokens."
+    },
+    "passwordChangedEventQueue": {
+      "name": "auth-server.security-tokens.inbound.1.password-changed-event-queue",
+      "autoAck": false,
+      "description": "This queue is used to receive user password changed event messages for revoking their tokens."
+    }
+  }
+}

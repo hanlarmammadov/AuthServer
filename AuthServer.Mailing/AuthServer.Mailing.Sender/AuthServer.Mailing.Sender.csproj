@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp2.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="FluentEmail.Core" Version="2.7.0" />
+		<PackageReference Include="FluentEmail.Razor" Version="2.7.0" />
+		<PackageReference Include="FluentEmail.Smtp" Version="2.7.1" />
+		<PackageReference Include="TacitusLogger" Version="0.4.4" />
+	</ItemGroup>
+
+</Project>

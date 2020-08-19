@@ -1,0 +1,8 @@
+﻿@model AuthServer.MailingSystem.Sender.Models.ViewModel
+<h4>Dear @Model.Get("Username"),</h4>
+
+<p>Main email for your account has been changed to: @Model.Get("NewEmail")</p>
+
+<p>If it was not you then you can undo this changes using the following link:
+    <a href="@Model.Get("EmailChangeUndoUrl")" target="_blank">Undo changes</a>.</p>
+

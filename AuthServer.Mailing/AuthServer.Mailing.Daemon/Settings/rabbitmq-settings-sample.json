@@ -1,0 +1,44 @@
+{
+  "rabbitmq": {
+    "Host": "",
+    "Port": 5672,
+    "User": "",
+    "Password": "",
+    "confirmMailQueue": {
+      "Name": "mailing-daemon.1.confirmation-mail-queue",
+      "AutoAck": false,
+      "Description": "This queue is used to receive mail confirmation messages for mailing daemon."
+    },
+    "directPassRecoveryMailQueue": {
+      "Name": "mailing-daemon.1.direct-password-recovery-mail-queue",
+      "AutoAck": false,
+      "Description": "This queue is used to receive direct password recovery messages for mailing daemon."
+    },
+    "resetLinkPasswordRecoveryMailQueue": {
+      "Name": "mailing-daemon.1.reset-link-password-recovery-mail-queue",
+      "AutoAck": false,
+      "Description": "This queue is used to receive reset link password recovery messages for mailing daemon."
+    },
+    "userClaimsChangedEventQueue": {
+      "Name": "mailing-daemon.1.user-claims-changed-event-mail-queue",
+      "AutoAck": false,
+      "Description": "This queue is used to receive user claims changed event messages for mailing daemon."
+    },
+
+    "passwordChangedEventQueue": {
+      "Name": "mailing-daemon.1.password-changed-event-mail-queue",
+      "AutoAck": false,
+      "Description": "This queue is used to receive password changed event messages for mailing daemon."
+    },
+    "accountEmailChangedEventQueue": {
+      "Name": "mailing-daemon.1.account-email-changed-event-mail-queue",
+      "AutoAck": false,
+      "Description": "This queue is used to receive account email changed event messages for mailing daemon."
+    },
+    "accountEmailChangeUndoEventQueue": {
+      "Name": "mailing-daemon.1.account-email-change-undo-event-mail-queue",
+      "AutoAck": false,
+      "Description": "This queue is used to receive messages for sending mails with email change undo option. For mailing daemon."
+    }
+  }
+}
